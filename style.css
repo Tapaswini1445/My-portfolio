@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Londrina+Solid:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Londrina+Solid:wght@300;400&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sofia&effect=fire');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(221, 216, 216); 
+    position: absolute;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding:45px;
+
+}
+.background-image{
+    background-image: url('tapupic.jpeg');
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+   
+    width: 100%;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black
+}
+.main{
+    /* background-color: yellow; */
+    width: 100vw;
+    bac
+}
+.main1{
+    /* background-color: yellow; */
+    background-image: url('tapupic.jpeg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+
+    width: 100vw;
+    
+}
+.main2{
+    /* background-color: yellow; */
+    background-image: url('wall1.jfif');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+}
+.main3{
+    /* background-color: yellow; */
+    background-image: url('wall3.jfif');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    
+}
+.main4{
+    /* background-color: yellow; */
+    background-image: url('wall.webp');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+}
+.main5{
+  /* background-color: yellow; */
+  background-image: url('wall2.jfif');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+  width: 100vw;
+  height: 240vw;
+  
+  
+}
+.container{
+    display: flex;
+
+}
+.infoContainer{
+   /* background-color: rgb(255, 0, 221); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px 100px;
+    
+    
+}
+.devPic img{
+    height: 58vh;
+}
+.devInfo{
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 50px;
+    color: maroon/*rgb(60, 30, 255)*/;
+
+}
+.name1{
+   font-size: 35px;
+   font-weight: bold;
+   color:rgb(236, 244, 242);
+   font-family: "Sofia", sans-serif;
+}
+.about{
+    font-family: "Sofia", sans-serif;
+font-size: 30px;
+color:rgb(240, 240, 235);
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: salmon ;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.btn-sm{
+    font-size: 14px;
+}
+.btn:hover{
+    background-color: white;
+    color: salmon ;
+}
+.contactform{
+    padding: 0 29px;
+    padding-top: 93px;
+    
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 88px;
+}
+.contactform h1{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 12px 0;
+}
+.contactform1{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform2{
+   width:25vw;
+   border-radius: 5px;
+   margin: 6px 0;
+   padding: 3px;
+}
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check-input{
+    width:24px;
+    margin: 3px 0;
+}
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+
+}
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+.intro{
+    margin: 100px;
+    height: 100%;
+}
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    color: wheat /*dodgerblue*/;
+    margin: 4px 9px;
+}
+
+.intro p{
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(216, 227, 221);
+    margin: 12px;
+    font-size: 20px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.skill1{
+    margin: 15px 198px;
+}
+.skillitems{
+    display: flex;
+    align-items: center;
+}
+.hundered{
+    width:265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width:125px;
+    background-color: aqua;
+}
+.t5{
+    width:75px;
+    background-color: yellow;
+}
+.hamburger{
+       position: absolute;
+       cursor: pointer;
+       top: 10px;
+       left: 10px;
+}
+.cross{
+    margin-left: 122px;
+}
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+@media (max-width: 1615px) {
+    *{
+    /*background-color:rgb(225, 117, 117);*/}
+  /*  .slidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }*/
+.intro .contact .skill 
+{
+    margin:50px 8px;
+}}
+.skill-bars{
+    padding: 25px 30px;
+    width: 600px;
+    background: #fff;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+  }
+  .skill-bars .bar{
+    margin: 20px 0;
+  }
+  .skill-bars .bar:first-child{
+    margin-top: 0px;
+  }
+  .skill-bars .bar .info{
+    margin-bottom: 5px;
+  }
+  .skill-bars .bar .info span{
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+  }
+  @keyframes showText {
+    100%{
+      opacity: 1;
+    }
+  }
+  .skill-bars .bar .progress-line{
+    height: 10px;
+    width: 100%;
+    background: #f0f0f0;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+                0 1px rgba(255,255,255,0.8);
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+  }
+  @keyframes animate {
+    100%{
+      transform: scaleX(1);
+    }
+  }
+  .bar .progress-line span{
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: salmon /*#6665ee*/;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+  }
+  .bar .progress-line.html span{
+    width: 80%;
+  }
+  .bar .progress-line.css span{
+    width: 60%;
+  }
+  .bar .progress-line.jquery span{
+    width: 50%;
+  }
+  .bar .progress-line.python span{
+    width: 40%;
+  }
+  .bar .progress-line.mysql span{
+    width: 65%;
+  }
+  .progress-line span::before{
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 0;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+  }
+  .progress-line span::after{
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    padding: 1px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+  }
+  @keyframes showText2 {
+    100%{
+      opacity: 1;
+    }
+  }
+  .progress-line.html span::after{
+    content: "80%";
+  }
+  .progress-line.css span::after{
+    content: "60%";
+  }
+  .progress-line.jquery span::after{
+    content: "50%";
+  }
+  .progress-line.python span::after{
+    content: "40%";
+  }
+  .progress-line.mysql span::after{
+    content: "65%";
+  }
+  
+  .pr{
+    
+    
+  }  
+  .fr{
+    font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  margin-left: 44%;
+  }

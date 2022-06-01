@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-eqiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tapaswini</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <script>
+      function saveData()
+      {
+        var name=document.getElementById("name").value
+        var email=document.getElementById("email").value
+        var phone=document.getElementById("phone").value
+        var msg=document.getElementById("msg").value
+        if(name=="" || email=="" || phone=="" || msg=="" )
+        {
+          alert("Fill all The part");
+        }
+        else if(isNaN(phone)){
+          alert("Enter Correct Number");
+        }
+        else if(phone.length > 10){
+          alert("Enter Correct Number");
+        }
+        else if(phone.length < 10){
+          alert("Enter Correct Number");
+        }
+else{
+       
+        localStorage.setItem("name",name)
+        localStorage.setItem("email",email)
+        localStorage.setItem("phone",phone)
+        localStorage.setItem("msg",msg)    }  
+      }
+    </script>
+    <body>
+    <div>
+        <div class="container">
+        <div class="sidebar sidebargo">
+            
+            <nav>
+                <ul>
+                    <li><a href="/tapaswini/index.html">Home</li></a> 
+                <li><a href="/tapaswini/about.html">About</li></a>
+                <li><a href="/tapaswini/skill.html">Skill</li></a>
+                <li><a href="/tapaswini/project.html">Project</li></a>
+                <li><a href="/tapaswini/contact.html">Contact me</li></a>
+                </ul>
+            </nav>
+        </div>
+        <div class="main3">
+          <div class="hamburger">
+            <img class="ham" src="/tapaswini/ham.png" alt="" width="23px">
+            <img class="cross" src="/tapaswini/cross.png" alt="" width="20px">
+        </div>
+        
+        <div class="contactform" >
+          <h1>Contact me for any Enquiries</h1>
+        <form onsubmit="return saveData()" align="center">
+          <table >
+            <tr><td>Name</td><td><input type=text class=contactform2 id="name"></td></tr>
+            <tr><td>Email</td><td><input type=text class=contactform2 id="email"></td></tr>
+            <tr><td>phone</td><td><input type=text class=contactform2 id="phone"></td></tr>
+            <tr><td>Message</td><td><input type=textarea class=contactform2 id="msg"></td></tr>
+
+            <tr><td ><button type="submit" class="btn btn-sm">Send Message</button></td></tr>
+
+          </table>
+          </form>
+          <br><br>
+          
+          <fieldset >
+          <table><tr><td align=center><img src=ss6.png width="3%" height="3%"></td></tr>
+            <tr><td align=center style="font-size: 31px;">+91 8018701445</td></tr></table></fieldset>
+            <br><br>
+          <center>
+            <fieldset >
+            <table><tr align="center"><td align=center><img src=ss7.png width="8%" height="8%"></td></tr>
+              <tr><td align=center style="font-size: 31px;">preetipatro199@gmail.com</td></tr></table></fieldset>
+              <br><br>
+              <fieldset >
+                <table><tr align="center"><td align=center><img src=ss8.png width="4%" height="4%"></td></tr>
+                  <tr><td align=center style="font-size: 31px;">Khallikote Unitary University,Berhampur</td></tr></table></fieldset>
+          
+          </div>
+          
+            
+          
+    </div><script src="script.js"></script>
+    </body>
+
+</html>

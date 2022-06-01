@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-eqiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tapaswini</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            #more {display: none;}
+            </style>
+    </head>
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
+        <body>
+    <div>
+        <div class="container">
+            <div class="sidebar sidebargo">
+            
+            <nav>
+                <ul>
+                    <li><a href="/tapaswini/index.html">Home</li></a> 
+                <li><a href="/tapaswini/about.html">About</li></a>
+                <li><a href="/tapaswini/skill.html">Skill</li></a>
+                <li><a href="/tapaswini/project.html">Project</li></a>
+                <li><a href="/tapaswini/contact.html">Contact me</li></a>
+                </ul>
+            </nav>
+        </div>
+        <div class="main5">
+            <div class="hamburger">
+                <img class="ham" src="/tapaswini/ham.png" alt="" width="23px">
+                <img class="cross" src="/tapaswini/cross.png" alt="" width="20px">
+            </div>
+            <div class="pr">
+           <div class="fr"> <b class="font-effect-fire">My Project Details</b></div>
+            <h2><u>Hotel Management System</u> </h2>
+            <p><b>Hotel Management System using PHP and MySQL is a web based application. Hotel management involves the management of anything
+                that related to the hotel industry. If you want to gain a
+                foothold in this business, you will need to learn about all
+                the techniques of managing a hotel business including
+                marketing, hotel administration, accounts. The primary
+                goal behind learning the ins and outs of hotel
+                management is to run a hotel successfully.
+                <span id="dots">...</span><span id="more"><br>
+                   <b style="font-size: 24px; color: rgb(255, 0, 0);"><u>HMS Project Modules</u></b><br>
+                  <b> Hotel Management System divided in two modules–</b><br>
+                   1.Client<br>
+                   2.Admin<br>
+                   <br><br>
+                   <b>Admin Features-</b><br>
+                  1. Admin Dashboard<br>
+2.Admin can add/update/ delete category<br>
+3.Admin can add/update/ delete rooms<br>
+4.Admin can add/update/ delete customers<br>
+5.Admin can search customer by using their customer ID<br>
+6.Admin can also view customer details<br>
+7.Admin can change own password<br>
+<br><br>
+<b>client-</b><br>
+1.Clients can register themself and after registration they will get clientid<br>
+2.After login clients can view own dashboard.<br>
+3.Clients can also view the selected rooms in the hotel.<br>
+ 4.Clients can update their own profile.<br>
+5.Clients can view selected rooms and return date-time.<br>
+6.Clients can also change own password.<br>
+7.Clients can also recover own password.<br>
+<br><br>
+<b style="font-size: 24px; color: rgb(255, 0, 0);"><u>HMS Project Screenshots</u></b><br>
+<b>HomePage</b><br>
+                   <img src=home.jpeg width="40%" height="20%" style="margin-left: 100px;">
+                <br><br>
+                <b>Admin Dashboard</b><br>
+                <img src=admin.jpeg width="40%" height="20%" style="margin-left: 100px;"><br>
+            <b>Gallery</b><br>
+            <img src=gallery.jpeg width="40%" height="20%" style="margin-left: 100px;">
+        <br>
+    <b>Facilities</b><br>
+    <img src=facility.jpeg width="40%" height="20%" style="margin-left: 100px;"><br>
+    <b>Room Booking page</b><br>
+            <img src=room.jpeg width="40%" height="20%" style="margin-left: 100px;">
+        <br>
+        <b>Contact us</b><br>
+            <img src=contact.jpeg width="40%" height="20%" style="margin-left: 100px;">
+        <br>
+</span>
+                </p>
+                    <button onclick="myFunction()" id="myBtn" class="btn">Read more</button>
+                    
+                    
+            </div>
+        </div>
+       </div>
+    </div><script src="script.js"></script>
+    </body>
+</html>
